@@ -8,12 +8,17 @@
 
 import Foundation
 import UIKit
-
+import Parse
 
 class InitViewController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         popUp.hidden = true
+        let testObject = PFObject(className: "Item")
+        testObject["Name"] = "Yang Hu"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            print("Object has been saved.")
+        }
     }
 
     var info = basicInfo()
@@ -29,6 +34,23 @@ class InitViewController : UIViewController{
         }
         info.otherNames.append(getName.text!)
         info.numPar += 1
+        var query = PFQuery(className:"Buyers")
+        query.whereKey("Name", equalTo: getName.text!)
+        query.findObjectsInBackgroundWithBlock {
+            (objects: [PFObject]?, error: NSError?) -> Void in
+            
+            if error == nil {
+                let testObject = PFObject(className: "Buyers")
+                testObject["Name"] = self.getName.text!
+                testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+                    print("Object has been saved.")}
+            
+            } else {
+                // Log details of the failure
+                print("Error: \(error!) \(error!.userInfo)")
+            }
+        }
+        
         info.display.append(getName.text! + ": $")
         popUp.hidden = false
         
@@ -56,7 +78,11 @@ override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
     }
 */
     
-    
+    //click the blank area. keyboard goes away
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+        super.touchesBegan(touches,  withEvent: event)
+    }
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         if (segue.identifier == "segueTest") {
             let svc = segue!.destinationViewController as! myTabBarController

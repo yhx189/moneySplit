@@ -109,6 +109,11 @@ class FirstViewController: UIViewController, UITextFieldDelegate, UIPickerViewDe
             }, completion: nil)
         
     }
-
+    
+    //click the blank area. keyboard goes away
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+        super.touchesBegan(touches,  withEvent: event)
+    }
 }
 
