@@ -14,42 +14,85 @@ class InitViewController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         popUp.hidden = true
-        let testObject = PFObject(className: "Item")
-        testObject["Name"] = "Yang Hu"
-        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-            print("Object has been saved.")
-        }
+//        let testObject = PFObject(className: "Item")
+//        testObject["Name"] = "Yang Hu"
+//        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+//            print("Object has been saved.")
+       // }
     }
 
     var info = basicInfo()
-    
+    var counter = 0
+
     @IBOutlet var popUp: UIView!
     @IBOutlet weak var getName: UITextField!
-    
+
 
     @IBOutlet var myName: UITextField!
     @IBAction func enterName(sender: UIButton) {
-        if info.myName == [] && myName.text != ""{
-        info.myName.append(myName.text!)
+//        var counter = PFObject(className: "Count")
+//        counter["num"] = 0
+//        counter.saveInBackgroundWithBlock {
+//            (success: Bool, error: NSError?) -> Void in
+//            if (success) {
+//                print("num saved")
+//            }
+//        }
+//        var query = PFQuery(className: "Count")
+//        query.findObjectsInBackground(){
+//            (objects: [PFObject]?, error: NSError?) -> Void in
+//        }
+//
+//        if info.myName == [] && myName.text != ""{
+//            info.myName.append(myName.text!)
+//            
+//        }
+//        info.otherNames.append(getName.text!)
+//        info.numPar += 1
+        
+       
+        if(counter == 0 && myName.text != ""){
+            let buyer = PFObject(className:"Buyer")
+            buyer["Name"] = myName.text!
+            buyer["Identity"] = "me"
+            buyer["splited"] = 0
+            buyer.saveInBackgroundWithBlock {
+                (success: Bool, error: NSError?) -> Void in
+               if (success) {
+                    print("I have been saved")
+                }
+            }
+            counter++;
         }
-        info.otherNames.append(getName.text!)
-        info.numPar += 1
-        var query = PFQuery(className:"Buyers")
-        query.whereKey("Name", equalTo: getName.text!)
-        query.findObjectsInBackgroundWithBlock {
-            (objects: [PFObject]?, error: NSError?) -> Void in
-            
-            if error == nil {
-                let testObject = PFObject(className: "Buyers")
-                testObject["Name"] = self.getName.text!
-                testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-                    print("Object has been saved.")}
-            
-            } else {
-                // Log details of the failure
-                print("Error: \(error!) \(error!.userInfo)")
+        
+        let buyer = PFObject(className:"Buyer")
+        buyer["Name"] = getName.text!
+        buyer["Identity"] = "others"
+        buyer["splited"] = 0
+        buyer.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError?) -> Void in
+            if (success) {
+                print("Other users have been saved")
             }
         }
+
+//        var query = PFQuery(className: "Buyer")
+//        query.whereKey("Me", equalTo: myName.text!)
+//        query.whereKey("Name", equalTo: getName.text!)
+//        query.findObjectsInBackgroundWithBlock {
+//            (objects: [PFObject]?, error: NSError?) -> Void in
+//            
+//            if error == nil {
+//                let testObject = PFObject(className: "Buyers")
+//                testObject["Name"] = self.getName.text!
+//                testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+//                    print("Object has been saved.")}
+//            
+//            } else {
+//                // Log details of the failure
+//                print("Error: \(error!) \(error!.userInfo)")
+//            }
+//        }
         
         info.display.append(getName.text! + ": $")
         popUp.hidden = false

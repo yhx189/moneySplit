@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "5c7b1caa0472704ff3a7499266277e67"
+build_time: [500142551, 214825000]
+inputs:
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplitTests/MoneySplitTests.swift": [496207360, 0]

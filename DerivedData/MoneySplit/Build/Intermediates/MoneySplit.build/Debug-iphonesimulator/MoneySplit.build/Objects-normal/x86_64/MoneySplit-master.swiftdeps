@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "b704bffce5949dc3e5abcdf34b2a6e9e"
+build_time: [501018644, 487231000]
+inputs:
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplit/FirstViewController.swift": [501018643, 0]
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplit/InitViewController.swift": [501018643, 0]
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplit/BasicInfo.swift": [500249170, 0]
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplit/MyTabBarController.swift": [496708639, 0]
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplit/AppDelegate.swift": [499018769, 0]
+  "/Users/john/Dropbox/MoneySplit 3/MoneySplit/SecondViewController.swift": [500249170, 0]

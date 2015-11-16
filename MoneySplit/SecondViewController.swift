@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class SecondViewController: UIViewController, UITableViewDelegate,UITableViewDataSource{
 
@@ -57,6 +58,7 @@ class SecondViewController: UIViewController, UITableViewDelegate,UITableViewDat
         tableView.reloadData()
         tableList = []
         for (var i = 0; i < info.splited.count; i++) {
+            //only display the ones that owe
             if (info.splited[i] != 0) {
                 display = display + info.display[i]
                 
@@ -76,9 +78,7 @@ class SecondViewController: UIViewController, UITableViewDelegate,UITableViewDat
         for (var i = 0; i < info.splited.count; i++) {
             if (info.splited[i] != 0) {
                 display = display + info.display[i]
-                
                 tableList.append(info.display[i])
-                
             }
         }
         return tableList.count;
@@ -94,8 +94,10 @@ class SecondViewController: UIViewController, UITableViewDelegate,UITableViewDat
         tableList = []
         for (var i = 0; i < info.splited.count; i++) {
             if (info.splited[i] != 0) {
+                if(info.splited[i] > 0){
                 display = display + info.display[i]
-                
+                }
+               
                 tableList.append(info.display[i])
                 
             }
@@ -104,7 +106,7 @@ class SecondViewController: UIViewController, UITableViewDelegate,UITableViewDat
         print(tableList[row])
         return cell
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

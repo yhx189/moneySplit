@@ -1,0 +1,917 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InitViewController"
+provides-nominal:
+- "C10MoneySplit18InitViewController"
+provides-member:
+- ["C10MoneySplit18InitViewController", ""]
+provides-dynamic-lookup:
+- "prepareForSegue"
+- "update"
+- "enterName"
+- "touchesBegan"
+- "popUp"
+- "counter"
+- "viewDidLoad"
+- "getName"
+- "myName"
+depends-top-level:
+- !private "!="
+- !private "Selector"
+- !private "UIViewAnimationOptions"
+- !private "=="
+- "UITextField"
+- "UIStoryboardSegue"
+- !private "&&"
+- "basicInfo"
+- "AnyObject"
+- "UIViewController"
+- !private "StringLiteralType"
+- !private "myTabBarController"
+- "UIView"
+- !private "Void"
+- "UIEvent"
+- !private "Bool"
+- "Set"
+- "UIButton"
+- !private "print"
+- !private "++"
+- !private "NSError"
+- "InitViewController"
+- !private "BooleanLiteralType"
+- !private "NSTimer"
+- !private "+"
+- !private "PFObject"
+- "UITouch"
+depends-member:
+- !private ["PSs9AnyObject", "NSTimer"]
+- !private ["PSs9AnyObject", "PFObject"]
+- !private ["PSs9AnyObject", "Selector"]
+- !private ["PSs9AnyObject", "UIView"]
+- !private ["PSs9AnyObject", "UIViewAnimationOptions"]
+- !private ["PSs9AnyObject", "alpha"]
+- !private ["PSs9AnyObject", "animateWithDuration"]
+- ["PSs9AnyObject", "basicInfo"]
+- ["PSs9AnyObject", "counter"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- !private ["PSs9AnyObject", "display"]
+- !private ["PSs9AnyObject", "endEditing"]
+- ["PSs9AnyObject", "enterName"]
+- ["PSs9AnyObject", "getName"]
+- !private ["PSs9AnyObject", "hidden"]
+- !private ["PSs9AnyObject", "identifier"]
+- ["PSs9AnyObject", "info"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "myName"]
+- ["PSs9AnyObject", "popUp"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "resignFirstResponder"]
+- !private ["PSs9AnyObject", "saveInBackgroundWithBlock"]
+- !private ["PSs9AnyObject", "scheduledTimerWithTimeInterval"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "toPass"]
+- ["PSs9AnyObject", "touchesBegan"]
+- ["PSs9AnyObject", "update"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "CurveEaseIn"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSTimer"]
+- !private ["PSs11CVarArgType", "PFObject"]
+- !private ["PSs11CVarArgType", "Selector"]
+- !private ["PSs11CVarArgType", "UIView"]
+- !private ["PSs11CVarArgType", "UIViewAnimationOptions"]
+- !private ["PSs11CVarArgType", "alpha"]
+- !private ["PSs11CVarArgType", "animateWithDuration"]
+- ["PSs11CVarArgType", "basicInfo"]
+- ["PSs11CVarArgType", "counter"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- !private ["PSs11CVarArgType", "endEditing"]
+- ["PSs11CVarArgType", "enterName"]
+- ["PSs11CVarArgType", "getName"]
+- !private ["PSs11CVarArgType", "hidden"]
+- !private ["PSs11CVarArgType", "identifier"]
+- ["PSs11CVarArgType", "info"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "myName"]
+- ["PSs11CVarArgType", "popUp"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "resignFirstResponder"]
+- !private ["PSs11CVarArgType", "saveInBackgroundWithBlock"]
+- !private ["PSs11CVarArgType", "scheduledTimerWithTimeInterval"]
+- !private ["PSs11CVarArgType", "subscript"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "toPass"]
+- ["PSs11CVarArgType", "touchesBegan"]
+- ["PSs11CVarArgType", "update"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSTimer"]
+- !private ["PSs23CustomStringConvertible", "PFObject"]
+- !private ["PSs23CustomStringConvertible", "Selector"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIView"]
+- !private ["PSs23CustomStringConvertible", "UIViewAnimationOptions"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "alpha"]
+- !private ["PSs23CustomStringConvertible", "animateWithDuration"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- ["PSs23CustomStringConvertible", "basicInfo"]
+- ["PSs23CustomStringConvertible", "counter"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- !private ["PSs23CustomStringConvertible", "endEditing"]
+- ["PSs23CustomStringConvertible", "enterName"]
+- ["PSs23CustomStringConvertible", "getName"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- !private ["PSs23CustomStringConvertible", "identifier"]
+- ["PSs23CustomStringConvertible", "info"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "myName"]
+- ["PSs23CustomStringConvertible", "popUp"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "resignFirstResponder"]
+- !private ["PSs23CustomStringConvertible", "saveInBackgroundWithBlock"]
+- !private ["PSs23CustomStringConvertible", "scheduledTimerWithTimeInterval"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "toPass"]
+- ["PSs23CustomStringConvertible", "touchesBegan"]
+- ["PSs23CustomStringConvertible", "update"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CurveEaseIn"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSTimer"]
+- !private ["PSs9Equatable", "PFObject"]
+- !private ["PSs9Equatable", "Selector"]
+- !private ["PSs9Equatable", "UIView"]
+- !private ["PSs9Equatable", "UIViewAnimationOptions"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "alpha"]
+- !private ["PSs9Equatable", "animateWithDuration"]
+- ["PSs9Equatable", "basicInfo"]
+- ["PSs9Equatable", "counter"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- !private ["PSs9Equatable", "endEditing"]
+- ["PSs9Equatable", "enterName"]
+- ["PSs9Equatable", "getName"]
+- !private ["PSs9Equatable", "hidden"]
+- !private ["PSs9Equatable", "identifier"]
+- ["PSs9Equatable", "info"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "myName"]
+- ["PSs9Equatable", "popUp"]
+- ["PSs9Equatable", "prepareForSegue"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "resignFirstResponder"]
+- !private ["PSs9Equatable", "saveInBackgroundWithBlock"]
+- !private ["PSs9Equatable", "scheduledTimerWithTimeInterval"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "toPass"]
+- ["PSs9Equatable", "touchesBegan"]
+- ["PSs9Equatable", "update"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSTimer"]
+- !private ["PSs8Hashable", "PFObject"]
+- !private ["PSs8Hashable", "Selector"]
+- !private ["PSs8Hashable", "UIView"]
+- !private ["PSs8Hashable", "UIViewAnimationOptions"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "alpha"]
+- !private ["PSs8Hashable", "animateWithDuration"]
+- ["PSs8Hashable", "basicInfo"]
+- ["PSs8Hashable", "counter"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- !private ["PSs8Hashable", "endEditing"]
+- ["PSs8Hashable", "enterName"]
+- ["PSs8Hashable", "getName"]
+- !private ["PSs8Hashable", "hidden"]
+- !private ["PSs8Hashable", "identifier"]
+- ["PSs8Hashable", "info"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "myName"]
+- ["PSs8Hashable", "popUp"]
+- ["PSs8Hashable", "prepareForSegue"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "resignFirstResponder"]
+- !private ["PSs8Hashable", "saveInBackgroundWithBlock"]
+- !private ["PSs8Hashable", "scheduledTimerWithTimeInterval"]
+- !private ["PSs8Hashable", "subscript"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "toPass"]
+- ["PSs8Hashable", "touchesBegan"]
+- ["PSs8Hashable", "update"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- ["C10MoneySplit18InitViewController", "AnyObject"]
+- !private ["C10MoneySplit18InitViewController", "Bool"]
+- !private ["C10MoneySplit18InitViewController", "NSError"]
+- !private ["C10MoneySplit18InitViewController", "NSTimer"]
+- !private ["C10MoneySplit18InitViewController", "PFObject"]
+- !private ["C10MoneySplit18InitViewController", "Selector"]
+- ["C10MoneySplit18InitViewController", "Set"]
+- ["C10MoneySplit18InitViewController", "UIButton"]
+- ["C10MoneySplit18InitViewController", "UIEvent"]
+- ["C10MoneySplit18InitViewController", "UIStoryboardSegue"]
+- ["C10MoneySplit18InitViewController", "UITextField"]
+- ["C10MoneySplit18InitViewController", "UITouch"]
+- ["C10MoneySplit18InitViewController", "UIView"]
+- !private ["C10MoneySplit18InitViewController", "UIViewAnimationOptions"]
+- !private ["C10MoneySplit18InitViewController", "Void"]
+- ["C10MoneySplit18InitViewController", "basicInfo"]
+- ["C10MoneySplit18InitViewController", "counter"]
+- ["C10MoneySplit18InitViewController", "deinit"]
+- ["C10MoneySplit18InitViewController", "enterName"]
+- ["C10MoneySplit18InitViewController", "getName"]
+- ["C10MoneySplit18InitViewController", "info"]
+- ["C10MoneySplit18InitViewController", "init"]
+- ["C10MoneySplit18InitViewController", "myName"]
+- !private ["C10MoneySplit18InitViewController", "myTabBarController"]
+- ["C10MoneySplit18InitViewController", "popUp"]
+- ["C10MoneySplit18InitViewController", "prepareForSegue"]
+- !private ["C10MoneySplit18InitViewController", "print"]
+- ["C10MoneySplit18InitViewController", "touchesBegan"]
+- ["C10MoneySplit18InitViewController", "update"]
+- !private ["C10MoneySplit18InitViewController", "view"]
+- ["C10MoneySplit18InitViewController", "viewDidLoad"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSo8NSCoding", "NSTimer"]
+- !private ["PSo8NSCoding", "PFObject"]
+- !private ["PSo8NSCoding", "Selector"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "UIViewAnimationOptions"]
+- !private ["PSo8NSCoding", "alpha"]
+- !private ["PSo8NSCoding", "animateWithDuration"]
+- ["PSo8NSCoding", "basicInfo"]
+- ["PSo8NSCoding", "counter"]
+- !private ["PSo8NSCoding", "endEditing"]
+- ["PSo8NSCoding", "enterName"]
+- ["PSo8NSCoding", "getName"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "info"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "myName"]
+- ["PSo8NSCoding", "popUp"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "resignFirstResponder"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "toPass"]
+- ["PSo8NSCoding", "touchesBegan"]
+- ["PSo8NSCoding", "update"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "NSTimer"]
+- !private ["PSo26NSExtensionRequestHandling", "PFObject"]
+- !private ["PSo26NSExtensionRequestHandling", "Selector"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
+- !private ["PSo26NSExtensionRequestHandling", "UIViewAnimationOptions"]
+- ["PSo26NSExtensionRequestHandling", "basicInfo"]
+- ["PSo26NSExtensionRequestHandling", "counter"]
+- ["PSo26NSExtensionRequestHandling", "enterName"]
+- ["PSo26NSExtensionRequestHandling", "getName"]
+- ["PSo26NSExtensionRequestHandling", "info"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "myName"]
+- ["PSo26NSExtensionRequestHandling", "popUp"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "toPass"]
+- ["PSo26NSExtensionRequestHandling", "touchesBegan"]
+- ["PSo26NSExtensionRequestHandling", "update"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSTimer"]
+- !private ["CSo8NSObject", "PFObject"]
+- !private ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UITouch"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "UIViewAnimationOptions"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "alpha"]
+- !private ["CSo8NSObject", "animateWithDuration"]
+- ["CSo8NSObject", "basicInfo"]
+- ["CSo8NSObject", "counter"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- !private ["CSo8NSObject", "endEditing"]
+- ["CSo8NSObject", "enterName"]
+- ["CSo8NSObject", "getName"]
+- !private ["CSo8NSObject", "hidden"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "myName"]
+- !private ["CSo8NSObject", "myTabBarController"]
+- ["CSo8NSObject", "popUp"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resignFirstResponder"]
+- !private ["CSo8NSObject", "saveInBackgroundWithBlock"]
+- !private ["CSo8NSObject", "scheduledTimerWithTimeInterval"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "toPass"]
+- ["CSo8NSObject", "touchesBegan"]
+- ["CSo8NSObject", "update"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "NSTimer"]
+- !private ["PSo16NSObjectProtocol", "PFObject"]
+- !private ["PSo16NSObjectProtocol", "Selector"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "UIViewAnimationOptions"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
+- !private ["PSo16NSObjectProtocol", "animateWithDuration"]
+- ["PSo16NSObjectProtocol", "basicInfo"]
+- ["PSo16NSObjectProtocol", "counter"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- ["PSo16NSObjectProtocol", "enterName"]
+- ["PSo16NSObjectProtocol", "getName"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "myName"]
+- ["PSo16NSObjectProtocol", "popUp"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resignFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "saveInBackgroundWithBlock"]
+- !private ["PSo16NSObjectProtocol", "scheduledTimerWithTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "toPass"]
+- ["PSo16NSObjectProtocol", "touchesBegan"]
+- ["PSo16NSObjectProtocol", "update"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo7NSTimer", "scheduledTimerWithTimeInterval"]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["PSs13OptionSetType", "CurveEaseIn"]
+- !private ["Sq", "deinit"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "saveInBackgroundWithBlock"]
+- !private ["CSo8PFObject", "subscript"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs16RawRepresentable", "CurveEaseIn"]
+- !private ["V10ObjectiveC8Selector", "init"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs14SetAlgebraType", "CurveEaseIn"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- !private ["PSo29UIAccessibilityIdentification", "animateWithDuration"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "resignFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "alpha"]
+- !private ["PSo12UIAppearance", "animateWithDuration"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "resignFirstResponder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "NSTimer"]
+- !private ["PSo21UIAppearanceContainer", "PFObject"]
+- !private ["PSo21UIAppearanceContainer", "Selector"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "UIViewAnimationOptions"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- !private ["PSo21UIAppearanceContainer", "animateWithDuration"]
+- ["PSo21UIAppearanceContainer", "basicInfo"]
+- ["PSo21UIAppearanceContainer", "counter"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- ["PSo21UIAppearanceContainer", "enterName"]
+- ["PSo21UIAppearanceContainer", "getName"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "info"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "myName"]
+- ["PSo21UIAppearanceContainer", "popUp"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "resignFirstResponder"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "toPass"]
+- ["PSo21UIAppearanceContainer", "touchesBegan"]
+- ["PSo21UIAppearanceContainer", "update"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "NSTimer"]
+- !private ["PSo18UIContentContainer", "PFObject"]
+- !private ["PSo18UIContentContainer", "Selector"]
+- !private ["PSo18UIContentContainer", "UIView"]
+- !private ["PSo18UIContentContainer", "UIViewAnimationOptions"]
+- ["PSo18UIContentContainer", "basicInfo"]
+- ["PSo18UIContentContainer", "counter"]
+- ["PSo18UIContentContainer", "enterName"]
+- ["PSo18UIContentContainer", "getName"]
+- ["PSo18UIContentContainer", "info"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "myName"]
+- ["PSo18UIContentContainer", "popUp"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "toPass"]
+- ["PSo18UIContentContainer", "touchesBegan"]
+- ["PSo18UIContentContainer", "update"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "resignFirstResponder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
+- !private ["PSo17UICoordinateSpace", "animateWithDuration"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "resignFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "alpha"]
+- !private ["PSo13UIDynamicItem", "animateWithDuration"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "resignFirstResponder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "NSTimer"]
+- !private ["PSo18UIFocusEnvironment", "PFObject"]
+- !private ["PSo18UIFocusEnvironment", "Selector"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "UIViewAnimationOptions"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- !private ["PSo18UIFocusEnvironment", "animateWithDuration"]
+- ["PSo18UIFocusEnvironment", "basicInfo"]
+- ["PSo18UIFocusEnvironment", "counter"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- ["PSo18UIFocusEnvironment", "enterName"]
+- ["PSo18UIFocusEnvironment", "getName"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "info"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "myName"]
+- ["PSo18UIFocusEnvironment", "popUp"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "resignFirstResponder"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "toPass"]
+- ["PSo18UIFocusEnvironment", "touchesBegan"]
+- ["PSo18UIFocusEnvironment", "update"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "resignFirstResponder"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "NSTimer"]
+- !private ["CSo11UIResponder", "PFObject"]
+- !private ["CSo11UIResponder", "Selector"]
+- ["CSo11UIResponder", "Set"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "UITouch"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "UIViewAnimationOptions"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "alpha"]
+- !private ["CSo11UIResponder", "animateWithDuration"]
+- ["CSo11UIResponder", "basicInfo"]
+- ["CSo11UIResponder", "counter"]
+- !private ["CSo11UIResponder", "endEditing"]
+- ["CSo11UIResponder", "enterName"]
+- ["CSo11UIResponder", "getName"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "info"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "myName"]
+- !private ["CSo11UIResponder", "myTabBarController"]
+- ["CSo11UIResponder", "popUp"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "resignFirstResponder"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "toPass"]
+- ["CSo11UIResponder", "touchesBegan"]
+- ["CSo11UIResponder", "update"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "NSTimer"]
+- !private ["PSo16UIStateRestoring", "PFObject"]
+- !private ["PSo16UIStateRestoring", "Selector"]
+- !private ["PSo16UIStateRestoring", "UIView"]
+- !private ["PSo16UIStateRestoring", "UIViewAnimationOptions"]
+- ["PSo16UIStateRestoring", "basicInfo"]
+- ["PSo16UIStateRestoring", "counter"]
+- ["PSo16UIStateRestoring", "enterName"]
+- ["PSo16UIStateRestoring", "getName"]
+- ["PSo16UIStateRestoring", "info"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "myName"]
+- ["PSo16UIStateRestoring", "popUp"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "toPass"]
+- ["PSo16UIStateRestoring", "touchesBegan"]
+- ["PSo16UIStateRestoring", "update"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo18UITabBarController", "toPass"]
+- !private ["PSo16UITabBarDelegate", "toPass"]
+- !private ["CSo11UITextField", "resignFirstResponder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "resignFirstResponder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "resignFirstResponder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "NSTimer"]
+- !private ["PSo18UITraitEnvironment", "PFObject"]
+- !private ["PSo18UITraitEnvironment", "Selector"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "UIViewAnimationOptions"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- !private ["PSo18UITraitEnvironment", "animateWithDuration"]
+- ["PSo18UITraitEnvironment", "basicInfo"]
+- ["PSo18UITraitEnvironment", "counter"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- ["PSo18UITraitEnvironment", "enterName"]
+- ["PSo18UITraitEnvironment", "getName"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "info"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "myName"]
+- ["PSo18UITraitEnvironment", "popUp"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "resignFirstResponder"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "toPass"]
+- ["PSo18UITraitEnvironment", "touchesBegan"]
+- ["PSo18UITraitEnvironment", "update"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "alpha"]
+- !private ["CSo6UIView", "animateWithDuration"]
+- !private ["CSo6UIView", "endEditing"]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "resignFirstResponder"]
+- !private ["CSo6UIView", "text"]
+- !private ["VSC22UIViewAnimationOptions", "CurveEaseIn"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "NSTimer"]
+- !private ["CSo16UIViewController", "PFObject"]
+- !private ["CSo16UIViewController", "Selector"]
+- ["CSo16UIViewController", "Set"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIEvent"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "UITouch"]
+- ["CSo16UIViewController", "UIView"]
+- !private ["CSo16UIViewController", "UIViewAnimationOptions"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "basicInfo"]
+- ["CSo16UIViewController", "counter"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "enterName"]
+- ["CSo16UIViewController", "getName"]
+- ["CSo16UIViewController", "info"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "myName"]
+- !private ["CSo16UIViewController", "myTabBarController"]
+- ["CSo16UIViewController", "popUp"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "toPass"]
+- ["CSo16UIViewController", "touchesBegan"]
+- ["CSo16UIViewController", "update"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "alpha"]
+- !private ["PSs12_Reflectable", "animateWithDuration"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "endEditing"]
+- !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "resignFirstResponder"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["C10MoneySplit9basicInfo", "display"]
+- ["C10MoneySplit9basicInfo", "init"]
+- !private ["C10MoneySplit18myTabBarController", "toPass"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- "C10MoneySplit18InitViewController"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo7NSTimer"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "CSo8PFObject"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo18UITabBarController"
+- !private "PSo16UITabBarDelegate"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "VSC22UIViewAnimationOptions"
+- "CSo16UIViewController"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- "C10MoneySplit9basicInfo"
+- !private "C10MoneySplit18myTabBarController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "./Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "./Bolts.framework/Headers/BFURL.h"
+- "./Bolts.framework/Headers/BFMeasurementEvent.h"
+- "./Bolts.framework/Headers/BFAppLinkTarget.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "./Bolts.framework/Headers/BFAppLinkResolving.h"
+- "./Bolts.framework/Headers/BFAppLink.h"
+- "./Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "./Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "./Bolts.framework/Headers/BFTask.h"
+- "./Bolts.framework/Headers/BFExecutor.h"
+- "./Bolts.framework/Headers/BFDefines.h"
+- "./Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "./Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "./Bolts.framework/Headers/BFCancellationToken.h"
+- "./Bolts.framework/Headers/BoltsVersion.h"
+- "./Bolts.framework/Headers/Bolts.h"
+- "./Bolts.framework/Modules/module.modulemap"
+- "./Parse.framework/Headers/PFPurchase.h"
+- "./Parse.framework/Headers/PFProduct.h"
+- "./Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "./Parse.framework/Headers/PFPush.h"
+- "./Parse.framework/Headers/PFInstallation.h"
+- "./Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "./Parse.framework/Headers/PFSession.h"
+- "./Parse.framework/Headers/PFRole.h"
+- "./Parse.framework/Headers/PFRelation.h"
+- "./Parse.framework/Headers/PFQuery.h"
+- "./Parse.framework/Headers/PFObject+Subclass.h"
+- "./Parse.framework/Headers/PFGeoPoint.h"
+- "./Parse.framework/Headers/PFFile.h"
+- "./Parse.framework/Headers/PFConfig.h"
+- "./Parse.framework/Headers/PFCloud.h"
+- "./Parse.framework/Headers/PFSubclassing.h"
+- "./Parse.framework/Headers/PFObject.h"
+- "./Parse.framework/Headers/PFUser.h"
+- "./Parse.framework/Headers/PFAnonymousUtils.h"
+- "./Parse.framework/Headers/PFConstants.h"
+- "/Users/john/Dropbox/MoneySplit 3/Bolts.framework/Modules/module.modulemap"
+- "./Parse.framework/Headers/PFAnalytics.h"
+- "./Parse.framework/Headers/PFNullability.h"
+- "./Parse.framework/Headers/PFACL.h"
+- "./Parse.framework/Headers/Parse.h"
+- "./Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "770ef294d6af769f0b6d284d67e722dd"

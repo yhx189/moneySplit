@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Parse
 class basicInfo{
     var myName : [String] = []
     var otherNames : [String] = []
