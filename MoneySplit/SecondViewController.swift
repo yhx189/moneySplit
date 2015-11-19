@@ -17,7 +17,8 @@ class SecondViewController: UIViewController, UITableViewDelegate,UITableViewDat
     @IBOutlet var MoneySplit: UILabel!
     
     @IBOutlet var tableView: UITableView!
-    
+    var nearable:ESTNearable!
+    var nearableManager:ESTNearableManager!
     
     var info = basicInfo()
     var display :String = ""

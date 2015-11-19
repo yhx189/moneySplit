@@ -14,8 +14,8 @@
 		524384F51BB10100007361C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524384F31BB10100007361C1 /* LaunchScreen.xib */; };
 		524385011BB10100007361C1 /* MoneySplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524385001BB10100007361C1 /* MoneySplitTests.swift */; };
 		52DC158B1BB6EA660046D949 /* BasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC158A1BB6EA660046D949 /* BasicInfo.swift */; };
-		77979FEC1BDBE63500906EBF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FEB1BDBE63500906EBF /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		77979FEE1BDBE63E00906EBF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FED1BDBE63E00906EBF /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		77979FEC1BDBE63500906EBF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FEB1BDBE63500906EBF /* Bolts.framework */; };
+		77979FEE1BDBE63E00906EBF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FED1BDBE63E00906EBF /* Parse.framework */; };
 		77979FF01BDBE69700906EBF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FEF1BDBE69700906EBF /* AudioToolbox.framework */; };
 		77979FFA1BDBE6D100906EBF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FF11BDBE6D100906EBF /* CFNetwork.framework */; };
 		77979FFB1BDBE6D100906EBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FF21BDBE6D100906EBF /* CoreGraphics.framework */; };
@@ -26,9 +26,10 @@
 		7797A0001BDBE6D100906EBF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FF71BDBE6D100906EBF /* Security.framework */; };
 		7797A0011BDBE6D100906EBF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FF81BDBE6D100906EBF /* StoreKit.framework */; };
 		7797A0021BDBE6D100906EBF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77979FF91BDBE6D100906EBF /* SystemConfiguration.framework */; };
-		779B06381BB8492C004A2B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779B06371BB8492C004A2B6D /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		779B063A1BB84AC3004A2B6D /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B06391BB84AC3004A2B6D /* InitViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		779B063C1BB86F03004A2B6D /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B063B1BB86F03004A2B6D /* MyTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		779A0A871BFE5E5F00C3039D /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779A0A861BFE5E5F00C3039D /* EstimoteSDK.framework */; };
+		779B06381BB8492C004A2B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779B06371BB8492C004A2B6D /* Main.storyboard */; };
+		779B063A1BB84AC3004A2B6D /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B06391BB84AC3004A2B6D /* InitViewController.swift */; };
+		779B063C1BB86F03004A2B6D /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B063B1BB86F03004A2B6D /* MyTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		77979FF71BDBE6D100906EBF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		77979FF81BDBE6D100906EBF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		77979FF91BDBE6D100906EBF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		779A0A861BFE5E5F00C3039D /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+		779A0A881BFE5E8000C3039D /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		779B06371BB8492C004A2B6D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		779B06391BB84AC3004A2B6D /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
 		779B063B1BB86F03004A2B6D /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 				7797A0011BDBE6D100906EBF /* StoreKit.framework in Frameworks */,
 				7797A0021BDBE6D100906EBF /* SystemConfiguration.framework in Frameworks */,
 				77979FF01BDBE69700906EBF /* AudioToolbox.framework in Frameworks */,
+				779A0A871BFE5E5F00C3039D /* EstimoteSDK.framework in Frameworks */,
 				77979FEE1BDBE63E00906EBF /* Parse.framework in Frameworks */,
 				77979FEC1BDBE63500906EBF /* Bolts.framework in Frameworks */,
 			);
@@ -107,6 +111,7 @@
 				77979FF21BDBE6D100906EBF /* CoreGraphics.framework */,
 				77979FF31BDBE6D100906EBF /* CoreLocation.framework */,
 				77979FF41BDBE6D100906EBF /* libsqlite3.tbd */,
+				779A0A861BFE5E5F00C3039D /* EstimoteSDK.framework */,
 				77979FF51BDBE6D100906EBF /* libz.tbd */,
 				77979FF61BDBE6D100906EBF /* QuartzCore.framework */,
 				77979FF71BDBE6D100906EBF /* Security.framework */,
@@ -151,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				524384E71BB100FF007361C1 /* Info.plist */,
+				779A0A881BFE5E8000C3039D /* Bridge.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = moneySplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "${PROJECT_NAME}/Bridge.h";
 			};
 			name = Debug;
 		};
@@ -424,6 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = moneySplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "${PROJECT_NAME}/Bridge.h";
 			};
 			name = Release;
 		};
